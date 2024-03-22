@@ -1,0 +1,49 @@
+{
+  "name": "quibusdamsint",
+  "version": "1.0.0",
+  "description": "TypeScript + Elasticsearch (types, query builder, magic)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeonReichert/quibusdamsint.git"
+  },
+  "author": "TryciaMayer",
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "asperiores",
+    "qui"
+  ],
+  "dependencies": {
+    "@sindresorhus/is": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "jest": "^26.5.0",
+    "prettier": "^2.1.2",
+    "prettier-plugin-organize-imports": "^1.1.1",
+    "prettier-plugin-pkg": "^0.8.0",
+    "rollup": "^2.28.2",
+    "rollup-plugin-dts": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
+  },
+  "sideEffects": false,
+  "prettier": {
+    "bracketSpacing": false,
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "source": "src/index.ts",
+  "bugs": {
+    "url": "https://github.com/DeonReichert/quibusdamsint.git/issues"
+  },
+  "homepage": "https://github.com/DeonReichert/quibusdamsint.git"
+}
